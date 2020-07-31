@@ -45,7 +45,7 @@ export default class ResidentAdvisor{
     }
 
     public getName(): string {
-        return name;
+        return this.name;
     }
 
 }
