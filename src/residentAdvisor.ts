@@ -4,10 +4,10 @@ import WeekEnd from "./weekEnd";
 export default class ResidentAdvisor{
     private name: string;
     
-    private preferredWeekDay: WeekDay;
-    private preferredWeekEnd: WeekEnd; 
+    private preferredWeekDay: WeekDay = WeekDay.None;
+    private preferredWeekEnd: WeekEnd = WeekEnd.None; 
 
-    private banWeekDay: WeekDay;
+    private banWeekDay: WeekDay = WeekDay.None;
 
     constructor (name:string) {
         this.name = name;
